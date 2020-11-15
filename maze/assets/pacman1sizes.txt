@@ -1,0 +1,32 @@
+pacman1 sizes
+
+pacman size = 13x13px
+first pacman coords = 4,1
+space between pacman sprites = 16
+
+therefore
+
+fully closed = 36,1
+
+left, open = 4,17
+left, closed = 20,17
+
+right, open = 4,1
+right, closed = 20,1
+
+up, open = 4,33
+up, closed = 20,33
+
+down, open = 4,49
+down, closed = 20,49
+
+die animation 15px x 15px
+
+0 = 51,0
+1 = 51 + 16,0
+2 = 51 + (16*2), 0
+3 = 51 + (16*3), 0
+.
+.
+.
+10 = 51+(16*10),0
